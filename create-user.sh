@@ -2,7 +2,7 @@
 #
 #Script name "add-local-user.sh"
 #This script creates a new user on the local system
-#You will be prompted to enter teh username (login), the person name, and password.
+#You will be prompted to enter the username (login), the person name, and password.
 #Enforces that it be executed with superuser (root) privileges.
 
 #If the script is not executed with
@@ -56,4 +56,4 @@ if [[ "${?}" -ne 0 ]]
 then
  echo 'The Password could not be created.'
 fi
-"add-local-user.sh" 73L, 2129C                                                                    25,23         Top
+"add-local-user.sh"
